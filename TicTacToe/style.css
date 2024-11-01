@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #87B6A7;
+
+   
+}
+
+h1{
+    margin-top: 45px;
+    margin: 50px;
+    margin-left: 500px;
+    font-size: 80px;
+    font-weight: 600;
+   
+    
+}
+.boxes{
+    margin: 50px;
+    margin-left: 480px;
+    border: 0px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin: 0;
+    color:#5B5941;
+    padding: 0;
+    border: 0px;
+    height: 120px;
+    width: 130px;
+   border-radius: 8px;
+   background-color: #E3F09B;
+   font-size: 50px;
+}
+.resetbutton{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    margin-left: 480px;
+    height: 35px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #5B5941;
+    width: 400px;
+    color: black;
+}
+.new-button{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    height: 35px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #5B5941;
+    width: 400px;
+    margin-bottom: 50px;
+    color: black;
+   
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 50px;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .hide {
+    display: none;
+  }
