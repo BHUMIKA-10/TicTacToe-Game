@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: chartreuse;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    background-color: transparent;
+    margin-left: 580px;
+    
+}
+.main{
+    display: flex;
+    margin: 66px;
+    margin-left: 350px;
+    
+}
+.boxes{
+    height: 200px;
+    width: 200px;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+.boxes:hover{
+    cursor: pointer;
+    filter:drop-shadow(10px 10px 20px rgba(0, 0, 0, 1));
+}
+.box1{
+    background-image:url("rock.jpeg");
+    background-size: cover;
+}
+
+.box2{
+    background-image:url("paper.jpeg");
+    background-size: cover;
+}
+.box3{
+    background-image:url("scissor.jpeg");
+    background-size: cover;
+}
+.score-board{
+    display: flex;
+  margin-left: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user{
+    font-size: 50px;
+ 
+    padding-bottom: 10px;
+}
+.computer{
+    margin-left: 50px;
+     padding-bottom: 10px;
+    font-size: 50px;
+   
+}
+button{
+    margin-left: 530px;
+    border: 0;
+    height: 80px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #C657FE;
+}
